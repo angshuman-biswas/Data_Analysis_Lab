@@ -1,0 +1,8 @@
+n <- as.integer(readline(prompt = "Enter the value of 'n': "))
+sum <- 0
+
+for (x in 1:n) {
+  sum <- sum + x
+}
+
+print(paste("Sum of ", n," natural numbers is: ", sum))
